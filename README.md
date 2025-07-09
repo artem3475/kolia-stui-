@@ -1,1 +1,58 @@
-# kolia-stui-
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій сайт</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .image-block {
+      margin-bottom: 30px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .caption {
+      font-style: italic;
+      margin-top: 5px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Сайт колі</h1>
+  <p>тут ми хочемо розповісти про колю все щоб всі в селі поняли хто він такий</p>
+
+  <div class="image-block">
+    <h2>1. Моє улюблене фото</h2>
+    <img src="https://placekitten.com/600/400" alt="Картинка 1">
+    <div class="caption">фейл колі 1</div>
+  </div>
+
+  <div class="image-block">
+    <h2>2. Природа</h2>
+    <img src="https://placehold.co/600x400?text=Природа" alt="Картинка 2">
+    <div class="caption"> фейл колі 2</div>
+  </div>
+
+  <audio autoplay>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Ваш браузер не підтримує відтворення аудіо.
+  </audio>
+
+</body>
+</html>
